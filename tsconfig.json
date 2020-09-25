@@ -16,6 +16,7 @@
     "noEmitOnError": true,
     "noImplicitAny": true,
     "noLib": false,
+    "outDir": ".tmp",
     "removeComments": false,
     "resolveJsonModule": true,
     "skipLibCheck": true,
