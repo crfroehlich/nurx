@@ -297,6 +297,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/faker@npm:5.1.2":
+  version: 5.1.2
+  resolution: "@types/faker@npm:5.1.2"
+  checksum: 3a7b0191b7d2e3677231339ce5a9dab6a628e7a25c2d7112166609f248a7e3cf02d1bb9fbcb84e5fdb78e56554a3c01cfe6f7651683c7e7fc65f5dead9c641ca
+  languageName: node
+  linkType: hard
+
 "@types/istanbul-lib-coverage@npm:*, @types/istanbul-lib-coverage@npm:^2.0.0":
   version: 2.0.3
   resolution: "@types/istanbul-lib-coverage@npm:2.0.3"
@@ -336,17 +343,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:14.11.2":
   version: 14.11.2
   resolution: "@types/node@npm:14.11.2"
   checksum: 3badcce3991cd8487b549b2541c9a9809f77ded06a2846dd9c73948d12a442290b31abef2d4b0304cc7e30539614ae82ff3b70d93a4b9a82e19128b3d17a9e0f
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:14.11.1":
-  version: 14.11.1
-  resolution: "@types/node@npm:14.11.1"
-  checksum: f8bad278fcd5bdd3c173343967806a5601838570ee89ef96912909489df6d722ef7f4de08a31d98159293ef0005bd65353199327c65af77505d3aad2a05fd636
   languageName: node
   linkType: hard
 
@@ -1215,6 +1215,13 @@ __metadata:
   version: 1.3.0
   resolution: "extsprintf@npm:1.3.0"
   checksum: 892efd56aa9b27cbfbca42ad0c59308633f66000e71d1fb19c6989ea7309b32f3ff281778871bd2ce9bc7f3ad02515aa2783cea0323d0f6ff840b7c6a6a4603e
+  languageName: node
+  linkType: hard
+
+"faker@npm:5.1.0":
+  version: 5.1.0
+  resolution: "faker@npm:5.1.0"
+  checksum: cc0a0c2b2952d0e7ddad67ec6302aa097d916c0bbb7baa2240a02ecdee4f42df260a233c5be108f782302e63b246add181d859ead9026687db9284050672084a
   languageName: node
   linkType: hard
 
@@ -2356,10 +2363,12 @@ fsevents@~2.1.2:
     "@types/chai": 4.2.12
     "@types/chai-as-promised": 7.1.3
     "@types/expect": 24.3.0
+    "@types/faker": 5.1.2
     "@types/mocha": 8.0.3
-    "@types/node": 14.11.1
+    "@types/node": 14.11.2
     chai: 4.2.0
     chai-as-promised: 7.1.1
+    faker: 5.1.0
     husky: 4.3.0
     mocha: 8.1.3
     node-preload: 0.2.1
